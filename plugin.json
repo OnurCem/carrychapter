@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "carrychapter",
+  "version": "0.1.0",
+  "description": "Keep shared notes and decisions up to date across separate AI chats.",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/carrychapter/SKILL.md"
+    }
+  }
+}
